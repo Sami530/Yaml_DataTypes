@@ -1,0 +1,47 @@
+  #string variables
+myself: Md Sami Mujawar
+fruit: "Jackfruit"
+job: 'Student'
+
+#multiline string 
+bio: |
+Hey my name is md sami 
+i am a very nice dude
+
+#write a single line multiple lines
+message: >
+This will 
+all be
+in one single line
+
+
+#same as 
+message: >
+This will all be in one single line
+
+
+number: 54382
+marks: 76.09
+booleanVale: !!bool No
+
+
+#specify the type
+zero: !!int 0
+positiveNum: !!int 34
+negativeNum: !!int -34
+binaryNum: !!int 0b11001
+ocatlum: !!int 06573 
+commaValue: !!int +540_000
+
+#floating point numbers
+marks: !!float 79.87
+infinite: !!float inf
+not a num: .nan 
+
+#null
+surname: !!null Null 
+~: this is a null key
+
+
+
+
